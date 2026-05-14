@@ -34,17 +34,13 @@ The application is deployed on **Netlify** with a **Supabase** PostgreSQL backen
 | Feature | Route | Description |
 |---|---|---|
 | Home | `/` | Landing page with network overview and quick links |
-| Trip Search | `/search` | Search trains between any two stations with ticket generation |
-| Trip Planner | `/planner` | Multi-leg journey planner with transfer suggestions |
-| Live Tracking | `/tracking` | Simulated real-time train positions across the network |
 | Service Alerts | `/alerts` | Live service disruption alerts by line |
-| Interactive Map | `/map` | Leaflet map with real GPS coordinates for all stations and lines |
+| Interactive Map | `/map` | Google map with real GPS coordinates for all stations and lines |
 | News | `/news` | Latest PRASA news with auto-refresh |
 | Fares | `/fares` | Fare information by line and zone |
 | Crowding & Sentiment | `/crowding` | AI-powered crowd level and safety rating from passenger feedback |
 | Lost & Found | `/lost-found` | Report lost items and receive email notification when found |
 | Safety Reports | `/safety` | Report safety incidents at stations |
-| My Tickets | `/tickets` | View generated ticket history |
 | Register | `/register` | Subscribe to station-specific email alerts |
 | Admin Panel | `/admin` | Full admin dashboard (protected) |
 
