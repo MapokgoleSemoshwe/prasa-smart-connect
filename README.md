@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PRASA Smart Connect
 
 A smart commuter web application for PRASA Metrorail passengers in the Western Cape, South Africa. The platform provides real-time train tracking, trip planning, service alerts, lost & found reporting, safety incident reporting, and an AI-powered chatbot — all in one place.
