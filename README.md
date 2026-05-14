@@ -57,7 +57,6 @@ The application is deployed on **Netlify** with a **Supabase** PostgreSQL backen
 | TanStack Query v5 | Server state management and data fetching |
 | Tailwind CSS v4 | Utility-first styling |
 | Radix UI | Accessible headless UI primitives |
-| Leaflet + React Leaflet | Interactive map with OpenStreetMap tiles (no API key required) |
 | Recharts | Data visualisation charts for sentiment analysis |
 | Lucide React | Icon library |
 | Zod | Runtime schema validation |
@@ -78,7 +77,6 @@ The application is deployed on **Netlify** with a **Supabase** PostgreSQL backen
 | Supabase (PostgreSQL) | Primary database — users, subscriptions, tickets, lost & found, safety incidents, coach feedback, scraped trains |
 | EmailJS | Transactional email — subscriber alerts, lost & found notifications, train update notifications |
 | Hugging Face Inference API | Sentiment analysis for coach feedback (distilroberta-base) |
-| OpenAI API | AI chatbot responses (optional, falls back to rule-based) |
 | SerpAPI | News scraping (optional) |
 
 ### Deployment
@@ -405,9 +403,6 @@ The platform is hosted on Netlify
 ✨ Features
 Feature	Route	Description
 Home	/	Landing page with train network overview
-Trip Search	/search	Search trains between stations and generate tickets
-Trip Planner	/planner	Multi-route journey planning
-Live Tracking	/tracking	Simulated real-time train tracking
 Service Alerts	/alerts	Real-time train disruption updates
 Interactive Map	/map	Live station and route visualization
 News	/news	Latest PRASA-related news
@@ -415,7 +410,6 @@ Fares	/fares	Fare and pricing information
 Crowding & Sentiment	/crowding	AI-powered crowd and safety analysis
 Lost & Found	/lost-found	Report and track lost items
 Safety Reports	/safety	Submit safety incidents
-My Tickets	/tickets	View generated ticket history
 Register	/register	Subscribe to station alerts
 Admin Dashboard	/admin	Protected admin management panel
 AI Chatbot	/chatbot	Intelligent train assistant
@@ -428,7 +422,6 @@ Tailwind CSS	Styling
 TanStack Router	Routing
 TanStack Query	Data fetching
 Radix UI	Accessible UI components
-Leaflet + React Leaflet	Interactive maps
 Recharts	Data visualisation
 Lucide React	Icons
 Zod	Validation
@@ -600,4 +593,4 @@ modern web technologies
 into one intelligent commuter platform.
 
 Built for Cape Town Metrorail commuters.
->>>>>>> e72859b9c4146689b5355fd59884fdfa46b4df38
+
